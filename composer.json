@@ -1,0 +1,29 @@
+{
+    "name": "dev/php",
+    "description": "teste dv jr",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Dev\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio jr.",
+            "email": "anntonioemj@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2"
+    },
+     "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
